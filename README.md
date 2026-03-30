@@ -40,13 +40,13 @@ cp config/.env.example .env
 bash config/setup.sh
 
 # Run Phase 1
-python phase-1/main.py --job-posting "path/to/job_posting.txt"
+python phase-1/main.py - job-posting "path/to/job_posting.txt"
 ```
 
 ## Documentation
 
 - `docs/CLAUDE.md` — Decision log and progress tracker
-- `docs/ARCHITECTURE_DECISIONS.md` — Why multi-agent, trade-offs, scaling to Phase 2
+- `docs/ARCHITECTURE_DECISIONS.md` -  Why multi-agent, trade-offs, scaling to Phase 2
 - `docs/DESIGN.md` — Technical specifications and pseudocode
 - `docs/METRICS.md` — Performance benchmarks and results
 
